@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Reusable",
+        "repositoryURL": "https://github.com/AliSoftware/Reusable.git",
+        "state": {
+          "branch": "release/4.1.1",
+          "revision": "704b87f530a7799c93dc670a79dbe89d5f130e3a",
+          "version": null
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b3e888b4972d9bc76495dd74d30a8c7fad4b9395",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
