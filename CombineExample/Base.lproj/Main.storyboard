@@ -51,7 +51,9 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="Nqa-RF-h2a" firstAttribute="top" secondItem="9BK-Vg-VPE" secondAttribute="top" constant="24" id="0WV-J9-bai"/>
                                                 <constraint firstItem="Nqa-RF-h2a" firstAttribute="centerY" secondItem="9BK-Vg-VPE" secondAttribute="centerY" id="GOu-2g-6fb"/>
+                                                <constraint firstAttribute="bottom" secondItem="Nqa-RF-h2a" secondAttribute="bottom" constant="24" id="mNW-Wr-fSA"/>
                                                 <constraint firstItem="Nqa-RF-h2a" firstAttribute="leading" secondItem="9BK-Vg-VPE" secondAttribute="leading" constant="20" id="vEr-de-GYH"/>
                                             </constraints>
                                         </tableViewCellContentView>

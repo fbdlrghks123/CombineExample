@@ -6,11 +6,16 @@
 //  Copyright © 2019 ryuickhwan. All rights reserved.
 //
 
-enum CellType: CaseIterable {
-    case ImageLoad
-    case Button
+import UIKit
+import Reusable
+
+enum CellType: Int, CaseIterable {
+    case ImageLoad = 0
     
-    var identifier: String {
-        return "cell"
+    var title: String {
+        switch self {
+        case .ImageLoad:
+            return "ImageLoader Example"
+        }
     }
 }
